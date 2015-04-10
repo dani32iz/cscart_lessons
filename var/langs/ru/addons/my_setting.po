@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::my_setting"
+msgid ":) My product setting"
+msgstr ":) Моя настройка товара"
+
+msgctxt "Addons::description::my_setting"
+msgid "New setting for product data"
+msgstr "Добавляет новую настройку 'моя настройка' для товара"
+
+msgctxt "Languages::my_setting"
+msgid "My setting"
+msgstr "Моя настройка"

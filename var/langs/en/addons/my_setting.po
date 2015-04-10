@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_setting"
+msgid ":) My product setting"
+msgstr ":) My product setting"
+
+msgctxt "Addons::description::my_setting"
+msgid "New setting for product data"
+msgstr "New setting for product data"
+
+msgctxt "Languages::my_setting"
+msgid "My setting"
+msgstr "My setting"
