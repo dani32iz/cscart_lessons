@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>db_yml_import</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <status>active</status>
+    <default_language>en</default_language>
+
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:yml_import_objects;</item>
+        <item>
+            CREATE TABLE `?:yml_import_objects` (
+                `product_id` mediumint(8) NOT NULL,
+                `offer_id` varchar(30) NOT NULL,
+                PRIMARY KEY  (`product_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yml_import_objects;</item>
+    </queries>
+</addon>
