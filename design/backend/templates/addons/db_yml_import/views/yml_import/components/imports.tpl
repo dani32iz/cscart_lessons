@@ -22,6 +22,8 @@
             </td>
         <td>
             <input type="text" name="import_data[urls][{$num}][url]" value="{$url.url}" class="span6 input-hidden cm-feature-value"></td>
+        <td>
+            <input type="text" name="import_data[urls][{$num}][price]" value="{$url.price}" class="span2 input-hidden cm-feature-value"></td>
         <td>&nbsp;</td>
         <td class="right nowrap">
             <div class="hidden-tools">
@@ -39,6 +41,8 @@
         <td></td>
         <td>
             <input type="text" name="import_data[urls][{$num}][url]" value="" class="span6 cm-feature-value" /></td>
+        <td>
+            <input type="text" name="import_data[urls][{$num}][price]" value="" class="span2 cm-feature-value" /></td>
         <td>&nbsp;</td>
         <td class="right">
             <div class="hidden-tools">

@@ -10,6 +10,7 @@
 
     <queries>
         <item>DROP TABLE IF EXISTS ?:yml_import_objects;</item>
+        <item>DROP TABLE IF EXISTS ?:yml_import_urls;</item>
         <item>
             CREATE TABLE `?:yml_import_objects` (
                 `product_id` mediumint(8) NOT NULL,
@@ -17,6 +18,16 @@
                 PRIMARY KEY  (`product_id`)
             ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
         </item>
+        <item>
+            CREATE TABLE `?:yml_import_urls` (
+                `url_id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT,
+                `url` varchar(255),
+                `price` varchar(255),
+                PRIMARY KEY  (`url_id`),
+                KEY (`url`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
         <item for="uninstall">DROP TABLE IF EXISTS ?:yml_import_objects;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yml_import_urls;</item>
     </queries>
 </addon>

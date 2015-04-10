@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2015-04-10 18:00">
+	<shop>
+		<name>AK Cent Microsystems</name>
+		<company>AK Cent Microsystems</company>
+		<url>www.ak-cent.kz</url>
+		<currencies>
+			<currency id="KZT" rate="1" plus="0"/>
+		</currencies>
+		<categories>
+			<category id="000000663">Беспроводные зарядные устройства (Qi)</category>
+			<category id="000000669">Беспроводная акустическая система</category>
+			<category id="000000670">Беспроводная гарнитура</category>
+			<category id="000000642">Лампа подсветки для E-Ink книг</category>
+			<category id="000000643">Радиотелефон</category>
+			<category id="000000645">Телефон</category>
+			<category id="000000646">Радар детектор</category>
+			<category id="000000087">МФУ</category>
+			<category id="000000088">FM модуляторы</category>
+			<category id="000000089">Манипуляторы</category>
+			<category id="000000092">Принтеры лазерные</category>
+			<category id="000000093">Принтеры матричные</category>
+			<category id="000000094">Принтеры струйные</category>
+			<category id="000000095">Сканеры</category>
+			<category id="000000096">Сумка для ноутбука</category>
+			<category id="000000097">Веб камеры</category>
+			<category id="000000098">Клавиатуры</category>
+			<category id="000000099">Акустика</category>
+			<category id="000000100">Наушники</category>
+			<category id="000000101">USB хабы</category>
+			<category id="000000102">Плоттеры</category>
+			<category id="000000103">Бумага</category>
+			<category id="000000104">Картриджи</category>
+			<category id="000000107">Аксессуары для Iphone, Ipod, Notebook, Car Mp3,Tab</category>
+			<category id="000000108">Гарнитуры Bluetooth</category>
+			<category id="000000109">Интерактивные доски</category>
+			<category id="000000110">Экраны</category>
+			<category id="000000112">Медиа плеер</category>
+			<category id="000000116">Bluetooth</category>
+			<category id="000000125">Оперативная память</category>
+			<category id="000000131">Кабель HDMI</category>
+			<category id="000000132">Кабель HDMI-DVI</category>
+			<category id="000000138">Кабель VGA</category>
+			<category id="000000639">Документ камеры</category>
+			<category id="000000607">Видео камера</category>
+			<category id="000000208">Гарнитура</category>
+			<category id="000000251">DVD плеер</category>
+			<category id="000000252">Чехол для планшета</category>
+			<category id="000000254">Bluetooth устройство</category>
+			<category id="000000940">МФУ Лазерные</category>
+			<category id="000000946">Смарт-часы</category>
+			<category id="000000624">Тонер</category>
+			<category id="000000625">Мобильный телефон</category>
+			<category id="000000626">Смартфон</category>
+			<category id="000000627">Обложка для электронной книги</category>
+			<category id="000001908">Интерактивный планшет</category>
+			<category id="000000634">Монитор</category>
+			<category id="000000615">Лампа для проектора</category>
+			<category id="000000618">Часы</category>
+			<category id="000000619">Звонок</category>
+			<category id="000000672">коробки для оборудования</category>
+			<category id="000000674">Кабель USB</category>
+			<category id="000000681">Переходник</category>
+			<category id="000000683">Кабель audio</category>
+			<category id="000000687">POS/TM-оборудование</category>
+			<category id="000000149">Фотоаппарат</category>
+			<category id="000000151">Диктофоны</category>
+			<category id="000000652">Коврик для компьютерной мыши</category>
+			<category id="000000656">аксессуары для печатного оборудования</category>
+			<category id="000000694">DMD CHIP</category>
+			<category id="000000914">BT гарнитура</category>
+			<category id="000000622">Защитная пленка</category>
+			<category id="000000192">Зарядное устройство</category>
+			<category id="000000195">Держатель</category>
+			<category id="000000199">Аккумуляторы</category>
+			<category id="000000202">Батарейки</category>
+			<category id="000000206">Презентер</category>
+			<category id="000000269">Светильник</category>
+			<category id="000000186">SSD накопители</category>
+			<category id="000000263">Планшетный компьютер</category>
+			<category id="000002076">Аксессуары для мобильных телефонов</category>
+			<category id="000000004">Проекторы</category>
+			<category id="000000049">Электронная книга</category>
+			<category id="000000050">Разъемы и переходники</category>
+			<category id="000000051">Спецпамять</category>
+			<category id="000000053">Картридеры</category>
+			<category id="000000054">HDD накопители</category>
+			<category id="000000055">MP3 плеер</category>
+			<category id="000000230">Сетевой фильтр</category>
+			<category id="000000967">Световой планшет</category>
+			<category id="000000968">Аксессуары для фотоаппаратов</category>
+			<category id="000000965">Адаптер</category>
+			<category id="000002023">Аксессуары для iPhone 6/6 Plus</category>
+			<category id="000000189">Видеорегистратор</category>
+			<category id="000000611">Power Bank</category>
+			<category id="000000613">Объектив</category>
+			<category id="000000076">Компьютерные мыши</category>
+			<category id="000000255">Фонарь</category>
+			<category id="000002333">LCD панель</category>
+			<category id="000002334">Дистанционное управление</category>
+			<category id="000002335">Контроллер для видеостен</category>
+			<category id="000000237">Чехол</category>
+			<category id="000000238">Портативный мультимедиа плеер</category>
+			<category id="000000240">HDD Adapter</category>
+			<category id="000000159">CD/DVD диски</category>
+			<category id="000000161">Энергосберегающие лампы</category>
+			<category id="000000165">Микрофон</category>
+			<category id="000000167">Рюкзак</category>
+			<category id="000000169">Чистящие средства</category>
+			<category id="000000064">USB накопители</category>
+			<category id="000000063">Карты памяти</category>
+			<category id="000001895">Ручка для интерактивной доски</category>
+			<category id="000001896">Калькуляторы</category>
+			<category id="000001897">Подставка для планшета</category>
+			<category id="000001898">Воздушный фильтр для проектора</category>
+			<category id="000001899">Система голосования</category>
+			<category id="000000067">Крепления</category>
+			<category id="000000068">Подставки для аппаратуры</category>
+			<category id="000000072">Цифровая фоторамка</category>
+		</categories>
+		<local_delivery_cost>500</local_delivery_cost>
+		<offers>
+			<offer id="00008890" type="USB накопители" available="true">
+				<name>Transcend TS16GJF760, USB Flash Drive 16GB "760" USB3.0</name>
+				<url>http://www.ak-cent.kz/catalog/120/4535/</url>
+				<Offer_ID>00008890</Offer_ID>
+				<categoryId type="own">000000064</categoryId>
+				<picture>http://www.ak-cent.kz/export/1cbitrix/import_files/dbff4643-1c98-11e1-804a-001517186c8c.jpeg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>500</local_delivery_cost>
+				<vendor>Transcend</vendor>
+				<model>TS16GJF760</model>
+				<description>Transcend TS16GJF760
+
+ПО JetFlash Elite с эффективными инструментами управления данными. Например, эти программы позволяют проверять электронную почту с любого совместимого компьютера, использовать накопитель как ключ для автоматического входа на сайты под учетной записью пользователя и многое другое
+
+Спецификация
+Интерфейс 	USB 3.0:
+Средняя скорость чтения 	52 МБ/с
+Средняя скорость записи 	18 МБ/с
+Интерфейс 	USB 2.0:
+Средняя скорость чтения 	32 МБ/с
+Средняя скорость записи 	18 МБ/с
+Размеры (sm) 	69,6 x 20,9 x 8,9 мм
+Вес (gm) 	12 г</description>
+				<manufacturer_warranty>Пожизненная</manufacturer_warranty>
+				<Stock>&lt;25</Stock>
+				<Param name="Вес (гр)">24</Param>
+				<Param name="Модель">JetFlash 760</Param>
+				<Param name="!">USB 3.0</Param>
+				<Param name="Тип корпуса">Выдвижной коннектор USB</Param>
+				<Param name="Объем памяти (Гб)">16</Param>
+				<Param name="Скорость чтения (MB/s)">90</Param>
+				<Param name="Скорость записи (MB/s)">20</Param>
+				<Param name="Глубина (мм)">10</Param>
+				<Param name="Высота (мм)">130</Param>
+				<Param name="Ширина (мм)">100</Param>
+				<Param name="Страна производитель">Тайвань</Param>
+				<Param name="Цвет">Черный</Param>
+				<Param name="Материал корпуса">Пластик</Param>
+				<prices>
+					<price type="RRP" currencyId="KZT">1990</price>
+					<price type="Дилерская цена" currencyId="KZT">1473</price>
+				</prices>
+			</offer>
+			<offer id="00008928" type="Картриджи" available="true">
+				<name>Картридж C13T12824011 I/C cyan for  S22 / SX125  SX420W / SX425W / BX305F</name>
+				<url>http://www.ak-cent.kz/catalog/272/1642/</url>
+				<Offer_ID>00008928</Offer_ID>
+				<categoryId type="own">000000104</categoryId>
+				<picture>http://www.ak-cent.kz/export/1cbitrix/import_files/5297b22e-2198-11e1-804a-001517186c8c.jpeg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>500</local_delivery_cost>
+				<vendor>Epson</vendor>
+				<model>C13T12824011</model>
+				<description>T1282 Картридж голубой, M для:
+Epson Stylus S22
+Epson Stylus SX125
+Epson Stylus SX130
+Epson Stylus SX420W
+Epson Stylus SX425W
+Epson Stylus SX440W
+Epson Stylus SX445W
+Epson Stylus Office BX305F
+Epson Stylus SX230
+Epson Stylus SX235W
+Epson Stylus SX430W
+Epson Stylus SX435W</description>
+				<manufacturer_warranty/>
+				<Stock>&lt;25</Stock>
+				<prices>
+					<price type="RRP" currencyId="KZT">1690</price>
+					<price type="Дилерская цена" currencyId="KZT">1492</price>
+				</prices>
+			</offer>
+			<offer id="00008942" type="USB накопители" available="true">
+				<name>Transcend TS16GJF350, USB Flash Drive 16GB "350"</name>
+				<url>http://www.ak-cent.kz/catalog/120/4527/</url>
+				<Offer_ID>00008942</Offer_ID>
+				<categoryId type="own">000000064</categoryId>
+				<picture>http://www.ak-cent.kz/export/1cbitrix/import_files/f1fcaa55-26c8-11e1-804a-001517186c8c.jpeg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>500</local_delivery_cost>
+				<vendor>Transcend</vendor>
+				<model>TS16GJF350</model>
+				<description>Transcend TS16GJF350
+
+Стильное, надежное устройство, которое обеспечит удобный обмен документами, фотографиями и музыкой. Корпус выполнен в классическом черном цвете и подойдет к любому стилю.
+
+Спецификация
+Интерфейс 	USB 2.0
+Размеры (sm) 	60 х 18,6 х 8,7 мм
+Вес (gm) 	8,5 г</description>
+				<manufacturer_warranty>Пожизненная</manufacturer_warranty>
+				<Stock>&lt;25</Stock>
+				<Param name="Вес (гр)">24</Param>
+				<Param name="Модель">JetFlash 350</Param>
+				<Param name="!">USB 2.0</Param>
+				<Param name="Тип корпуса">Съёмный колпачок</Param>
+				<Param name="Объем памяти (Гб)">16</Param>
+				<Param name="Скорость чтения (MB/s)">15</Param>
+				<Param name="Скорость записи (MB/s)">11</Param>
+				<Param name="Глубина (мм)">10</Param>
+				<Param name="Высота (мм)">130</Param>
+				<Param name="Ширина (мм)">100</Param>
+				<Param name="Страна производитель">Тайвань</Param>
+				<Param name="Цвет">Черный</Param>
+				<Param name="Материал корпуса">Пластик</Param>
+				<prices>
+					<price type="RRP" currencyId="KZT">1710</price>
+					<price type="Дилерская цена" currencyId="KZT">1268</price>
+				</prices>
+			</offer>
+			<offer id="00008950" type="CD/DVD диски" available="true">
+				<name>ACME DVD+RW 4,7GB/4x, slim box</name>
+				<url>http://www.ak-cent.kz/catalog/61/864/</url>
+				<Offer_ID>00008950</Offer_ID>
+				<categoryId type="own">000000159</categoryId>
+				<picture>http://www.ak-cent.kz/export/1cbitrix/import_files/c39c74c1-26d9-11e1-804a-001517186c8c.jpeg</picture>
+				<delivery>true</delivery>
+				<local_delivery_cost>500</local_delivery_cost>
+				<vendor>Acme</vendor>
+				<model>ACME DVD+RW 4,7GB/4x, slim box</model>
+				<description>ACME DVD+RW 4,7GB/4x, slim box
+Тип 	DVD+RW
+Емкость 	120 мин/4,7 ГБ
+Cкорость записи 	4x
+Упаковка 	Пластиковая коробка слим-бокс</description>
+				<manufacturer_warranty>3 месяца</manufacturer_warranty>
+				<Stock>&gt;100</Stock>
+				<prices>
+					<price type="RRP" currencyId="KZT">300</price>
+					<price type="Дилерская цена" currencyId="KZT">173</price>
+				</prices>
+			</offer>
+		</offers>
+	</shop>
+</yml_catalog>

@@ -62,6 +62,14 @@ class Import
     // Информация о товаре
     public $offer_data = array();
 
+    // Счётчик .
+    public $processed_data = array(
+            'new' => 0,
+            'exist' => 0,
+            'skipped' => 0,
+            'total' => 0
+        );
+
     /**
      * Подготовка к импорту.
      * @param string $path Путь или URL к xml файлу.
@@ -92,9 +100,12 @@ class Import
             fclose($this->log);
         }
 
+        $this->errorsXml();
+
         if(!empty($this->errors)) {
             fclose($this->errors);   
         }
+
     }
 
     /**
@@ -104,8 +115,6 @@ class Import
     {
 
         $this->read();
-
-        $this->errorsXml();
 
     }
 
@@ -172,10 +181,13 @@ class Import
     {
 
         if ($this->checkOffer()) {
+            $this->processed_data['total']++;
 
             $this->getProductId();
 
             if ($this->offer_data['product_id']) {
+                $this->processed_data['exist']++;
+
                 $this->getOfferData();
                 $this->updateProduct();                 
             }

@@ -22,13 +22,20 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
     if ($mode == 'import') {
 
         $file = fn_filter_uploaded_data('yml_file');
-        $price_type = 'RRP';
+
+        $params = $_REQUEST;
 
         if (!empty($file)) {
-
             $path = $file[0]['path'];
-            $import = new Import($path, $price_type);
+            $import = new Import($path, $params['price']);
             $import->run();
+
+            fn_set_notification('W', __('important'), __('text_exim_data_imported', array(
+                '[new]' => $import->processed_data['new'],
+                '[exist]' => $import->processed_data['exist'],
+                '[skipped]' => $import->processed_data['skipped'],
+                '[total]' => $import->processed_data['total']
+            )));
 
         } else {
             fn_set_notification('E', __('error'), __('error_exim_no_file_uploaded'));

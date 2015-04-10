@@ -55,16 +55,12 @@ function fn_db_yml_import_update_offer_id($product_id, $offer_id)
 
 }
 
-function fn_db_yml_import_update_url($ulr_data)
+function fn_db_yml_import_update_url($url_data)
 {
 
-    if (!empty($ulr_data['url'])) {
-        $_data = array (
-            'url_id' => !empty($ulr_data['url_id']) ? $ulr_data['url_id'] : false ,
-            'url' => $ulr_data['url'],
-        );
+    if (!empty($url_data['url'])) {
 
-        $url_id = db_query("REPLACE INTO ?:yml_import_urls ?e", $_data);
+        $url_id = db_query("REPLACE INTO ?:yml_import_urls ?e", $url_data);
 
         return $url_id;
     } 
@@ -81,6 +77,16 @@ function fn_db_yml_import_get_urls()
     }
 
     return $urls;
+
+}
+
+
+function fn_db_yml_get_url_by_id($url_id)
+{
+
+    $url_data = db_get_row("SELECT * FROM ?:yml_import_urls WHERE url_id = ?i", $url_id);
+
+    return $url_data;
 
 }
 
