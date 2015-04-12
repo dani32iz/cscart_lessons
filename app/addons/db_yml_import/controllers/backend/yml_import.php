@@ -69,20 +69,33 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
     return array(CONTROLLER_STATUS_OK, "yml_import$suffix");
 }
 
-
 if ($mode == 'manage') {
 
-
-    Registry::set('navigation.tabs', array (
-        'general' => array (
+    $tabs = array (
+        'manual' => array (
             'title' => __('general'),
             'js' => true
         ),
-    ));
-
-    Registry::get('view')->assign('yml', 1);
+        'import_urls' => array (
+            'title' => __('yml_import.import_urls'),
+            'js' => true
+        ),
+    );
+    Registry::set('navigation.tabs', $tabs);
 
     $urls = fn_db_yml_import_get_urls();
-
     Registry::get('view')->assign('urls', $urls);
+
+
+    $log['log'] = fn_get_session_data('yml_import_log');
+    $log['errors'] = fn_get_session_data('yml_import_errors');
+    Registry::get('view')->assign('log', $log);
+}
+
+if ($mode == 'getfile' && !empty($_REQUEST['file'])) {
+
+    $dir = fn_get_files_dir_path() . 'yml_import/';
+
+    fn_get_file($dir . fn_basename($_REQUEST['file']));
+
 }

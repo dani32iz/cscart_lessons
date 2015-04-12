@@ -106,6 +106,7 @@ class Import
             fclose($this->errors);   
         }
 
+        $this->saveSession();
     }
 
     /**
@@ -123,7 +124,7 @@ class Import
      */
     public function read()
     {
-
+fn_print_die(1);
         while ($this->xml->read()) {
 
             if ($this->xml->nodeType == \XMLReader::ELEMENT){
@@ -451,6 +452,26 @@ class Import
 
             fputs($this->errors, implode($this->log_delimeter, $this->errors_header) . "\r\n");
 
+        }
+
+    }
+
+    /**
+     * Сохраняем ссылки на результаты импорта
+     */
+    public function saveSession()
+    {
+
+        if(!empty($this->log_file)) {
+            fn_set_session_data('yml_import_log', $this->log_file);
+        } else {
+            fn_delete_session_data('yml_import_log');
+        }
+
+        if(!empty($this->errors_file)) {
+            fn_set_session_data('yml_import_errors', $this->errors_file);
+        } else {
+            fn_delete_session_data('yml_import_errors');
         }
 
     }

@@ -4,18 +4,35 @@
 <input type="hidden" class="cm-no-hide-input" name="fake" value="1" />
 
 {capture name="tabsbox"}
-<div id="content_general">
+<div id="content_manual">
 
-    <div class="control-group">
-        <label for="elm_price" class="control-label">{__("price")}</label>
-        <div class="controls">
-        <input type="text" name="price" id="elm_price" value="RRP" size="25" class="input-long" /></div>
+    {if $log}
+    {include file="common/subheader.tpl" title=__("yml_import.report") target="#import_report"}
+    <div id="import_report" class="in collapse">
+        {include file="addons/db_yml_import/views/yml_import/components/reports.tpl"}
+    </div>
+    {/if}
+
+
+    {include file="common/subheader.tpl" title=__("yml_import.manual_import") target="#manual_import"}
+    <div id="manual_import" class="in collapse">
+
+        <div class="control-group">
+            <label for="elm_price" class="control-label">{__("price")}</label>
+            <div class="controls">
+            <input type="text" name="price" id="elm_price" value="RRP" size="25" class="input-long" /></div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">{__("select_file")}:</label>
+            <div class="controls">{include file="common/fileuploader.tpl" var_name="yml_file[0]"}</div>
+        </div>
+
     </div>
 
-    <div class="control-group">
-        <label class="control-label">{__("select_file")}:</label>
-        <div class="controls">{include file="common/fileuploader.tpl" var_name="yml_file[0]"}</div>
-    </div>
+</div>
+
+<div  class="hidden" id="content_import_urls">
 
     {include file="addons/db_yml_import/views/yml_import/components/imports.tpl"}
 

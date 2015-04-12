@@ -24,4 +24,22 @@ msgctxt "Languages::yml_import.offer_id"
 msgid "YML offer id"
 msgstr "YML offer id"
 
+msgctxt "Languages::yml_import.import_urls"
+msgid "URLS for import"
+msgstr "URL для импорта по CRON"
 
+msgctxt "Languages::yml_import.report"
+msgid "YML import report"
+msgstr "Отчёт о последнем импорте"
+
+msgctxt "Languages::yml_import.log"
+msgid "YML import errors"
+msgstr "Журнал изменений в каталоге"
+
+msgctxt "Languages::yml_import.errors"
+msgid "YML import errors"
+msgstr "Отчёт об ошибках импорта"
+
+msgctxt "Languages::yml_import.manual_import"
+msgid "YML manual import"
+msgstr "Ручной запуск импорта"
