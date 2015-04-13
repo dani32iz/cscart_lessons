@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_exim</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <status>active</status>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+</addon>
