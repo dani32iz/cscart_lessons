@@ -6,11 +6,11 @@
 {capture name="tabsbox"}
 <div id="content_manual">
 
-    {if $log}
-    {include file="common/subheader.tpl" title=__("yml_import.report") target="#import_report"}
-    <div id="import_report" class="in collapse">
-        {include file="addons/db_yml_import/views/yml_import/components/reports.tpl"}
-    </div>
+    {if $log.log || $log.errors}
+        {include file="common/subheader.tpl" title=__("yml_import.report") target="#import_report"}
+        <div id="import_report" class="in collapse">
+            {include file="addons/db_yml_import/views/yml_import/components/reports.tpl"}
+        </div>
     {/if}
 
 

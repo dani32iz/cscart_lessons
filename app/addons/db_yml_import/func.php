@@ -72,8 +72,12 @@ function fn_db_yml_import_get_urls()
 
     $_urls = db_get_array("SELECT * FROM ?:yml_import_urls");
 
-    foreach ($_urls as $value) {
-        $urls[$value['url_id']] = $value;
+    if (!empty($_urls)) {
+        foreach ($_urls as $value) {
+            $urls[$value['url_id']] = $value;
+        }        
+    } else {
+        $urls = false;
     }
 
     return $urls;

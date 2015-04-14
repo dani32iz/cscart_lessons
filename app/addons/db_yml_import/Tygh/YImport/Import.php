@@ -124,7 +124,7 @@ class Import
      */
     public function read()
     {
-fn_print_die(1);
+
         while ($this->xml->read()) {
 
             if ($this->xml->nodeType == \XMLReader::ELEMENT){

@@ -27,6 +27,7 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
 
         if (!empty($file)) {
             $path = $file[0]['path'];
+
             $import = new Import($path, $params['price']);
             $import->run();
 
@@ -86,10 +87,13 @@ if ($mode == 'manage') {
     $urls = fn_db_yml_import_get_urls();
     Registry::get('view')->assign('urls', $urls);
 
-
     $log['log'] = fn_get_session_data('yml_import_log');
     $log['errors'] = fn_get_session_data('yml_import_errors');
-    Registry::get('view')->assign('log', $log);
+
+    if (!empty($log)) {
+        Registry::get('view')->assign('log', $log);      
+    }
+
 }
 
 if ($mode == 'getfile' && !empty($_REQUEST['file'])) {
