@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::db_yml_import"
+msgid ":) YML import"
+msgstr ":) YML импорт товаров"
+
+msgctxt "Addons::description::db_yml_import"
+msgid "Yml import description"
+msgstr "Обновление товаров из YML файла"
+
+msgctxt "Languages::yml_import.title"
+msgid "YML import"
+msgstr "Импорт данных из YML"
+
+msgctxt "Languages::yml_import.manage.notes"
+msgid "YML import manage notes"
+msgstr "Инструкция"
+
+msgctxt "Languages::yml_import.offer_id"
+msgid "YML offer id"
+msgstr "YML offer id"
+
+msgctxt "Languages::yml_import.import_urls"
+msgid "URLS for import"
+msgstr "URL для импорта по CRON"
+
+msgctxt "Languages::yml_import.report"
+msgid "YML import report"
+msgstr "Отчёт о последнем импорте"
+
+msgctxt "Languages::yml_import.log"
+msgid "YML import errors"
+msgstr "Журнал изменений в каталоге"
+
+msgctxt "Languages::yml_import.errors"
+msgid "YML import errors"
+msgstr "Отчёт об ошибках импорта"
+
+msgctxt "Languages::yml_import.manual_import"
+msgid "YML manual import"
+msgstr "Ручной запуск импорта"
