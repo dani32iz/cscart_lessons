@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>optional_email</id>
+    <version>1.0</version>
+    <priority>4294967292</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general">
+                        <type>header</type>
+                    </item>
+                    <item id="email_prefix">
+                        <type>input</type>
+                        <default_value>test_</default_value>
+                    </item>
+                    <item id="email_suffix">
+                        <type>input</type>
+                        <default_value>@site.ru</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+</addon>

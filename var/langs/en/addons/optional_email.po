@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::optional_email"
+msgid "Optional e-mail"
+msgstr ":) Optional e-mail"
+
+msgctxt "Addons::description::optional_email"
+msgid "The e-mail is not required for registration"
+msgstr "The e-mail is not required for registration"
+
+msgctxt "SettingsOptions::optional_email::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::optional_email::email_prefix"
+msgid "Prefix"
+msgstr "Prefix"
+
+msgctxt "SettingsOptions::optional_email::email_suffix"
+msgid "Suffix"
+msgstr "Suffix"

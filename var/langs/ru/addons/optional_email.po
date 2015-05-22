@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::optional_email"
+msgid "Optional e-mail"
+msgstr ":) Необязательный email"
+
+msgctxt "Addons::description::optional_email"
+msgid "The e-mail is not required for registration"
+msgstr "Необязательный email при оформлении заказа"
+
+msgctxt "SettingsOptions::optional_email::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::optional_email::email_prefix"
+msgid "Prefix"
+msgstr "Префикс"
+
+msgctxt "SettingsOptions::optional_email::email_suffix"
+msgid "Suffix"
+msgstr "Суффикс"
