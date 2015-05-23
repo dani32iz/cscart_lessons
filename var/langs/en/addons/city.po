@@ -10,3 +10,7 @@ msgstr ":) Город"
 msgctxt "Addons::description::city"
 msgid "City description"
 msgstr "Выбор города"
+
+msgctxt "Languages::city.list.title"
+msgid "Select city"
+msgstr "Выберите город"
