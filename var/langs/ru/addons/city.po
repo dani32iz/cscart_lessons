@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::city"
+msgid "City"
+msgstr ":) Город"
+
+msgctxt "Addons::description::city"
+msgid "City description"
+msgstr "Выбор города"
