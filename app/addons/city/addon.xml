@@ -7,4 +7,26 @@
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
     <status>active</status>
     <default_language>en</default_language>
+
+    <compatibility>
+        <dependencies>rus_cities</dependencies>
+    </compatibility>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general">
+                        <type>header</type>
+                    </item>
+                    <item id="columns_count">
+                        <type>input</type>
+                        <default_value>4</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+
 </addon>

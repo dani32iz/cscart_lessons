@@ -7,6 +7,14 @@ msgctxt "Addons::name::city"
 msgid "City"
 msgstr ":) Город"
 
+msgctxt "SettingsOptions::city::columns_count"
+msgid "Columns count"
+msgstr "Количество колонок"
+
+msgctxt "SettingsOptions::city::general"
+msgid "General"
+msgstr "Общие"
+
 msgctxt "Addons::description::city"
 msgid "City description"
 msgstr "Выбор города"
@@ -14,3 +22,4 @@ msgstr "Выбор города"
 msgctxt "Languages::city.list.title"
 msgid "Select city"
 msgstr "Выберите город"
+
