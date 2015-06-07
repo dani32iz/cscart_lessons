@@ -1,7 +1,7 @@
 <?php
 
 use Tygh\Registry;
-use Tygh\Ym\Yml;
+use Tygh\Ym\CronYml;
 
 define('AREA', 'C');
 define('NO_SESSION', true);
@@ -23,12 +23,10 @@ if (Registry::isExist('languages.ru')) {
     $lang_code = 'ru';
 }
 
-$yml = new Yml($company_id, $options, $lang_code, $page, false);
+$yml = new CronYml($company_id, $options, $lang_code, $page, true);
 
-$filename = $yml->getFileName();
+$filename = $yml->get();
 
-$yml->generate($filename);
-
-fn_echo('Good');
+fn_echo($filename);
 
 exit;
