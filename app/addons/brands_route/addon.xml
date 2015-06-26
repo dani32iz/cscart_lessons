@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>brands_route</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <status>active</status>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general" edition_type="ROOT,ULT:VENDOR">
+                <items>
+                    <item id="brands_route">
+                        <type>input</type>
+                        <default_value>brands</default_value>
+                    </item>
+                    <item id="filter_id">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

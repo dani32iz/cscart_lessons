@@ -1,0 +1,22 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::brands_route"
+msgid "Brand route"
+msgstr ":) SEO для страницы списка брендов"
+
+msgctxt "Addons::description::brands_route"
+msgid "Routes, pre-controllers, schemas, addons settings"
+msgstr "Научимся пользоваться pre контроллерами, роутами, расширять схемы, добавлять настройки модуля"
+
+msgctxt "SettingsOptions::brands_route::filter_id"
+msgid "Filter for brand"
+msgstr "Характеристика для страницы списка брендов"
+
+msgctxt "SettingsOptions::brands_route::brands_route"
+msgid "Route for brand"
+msgstr "SEO имя для страницы списка брендов"
+
