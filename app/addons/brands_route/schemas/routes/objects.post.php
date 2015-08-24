@@ -18,11 +18,9 @@ $addons_info = Registry::get('addons.brands_route');
 
 $seo_name = '/' . $addons_info['brands_route'];
 
-$schema = array(
-    $seo_name => array(
-        'dispatch' => 'product_features.view_all',
-        'filter_id' => $addons_info['filter_id']
-    )
+$schema[$seo_name] = array (
+    'dispatch' => 'product_features.view_all',
+    'filter_id' => $addons_info['filter_id']
 );
 
 return $schema;
