@@ -22,14 +22,14 @@ function fn_get_shipping_rates_by_product($product, $auth) {
 
         if (empty($ship_cart)) {
 
-            $ship_cart = [
-                'products' => [
+            $ship_cart = array(
+                'products' => array(
                     0 => $product
-                ],
+                ),
                 'recalculate' => true,
-                'chosen_shipping' => [],
+                'chosen_shipping' => array(),
                 'calculate_shipping' => true
-            ];
+            );
 
             list($cart_products, $product_groups) = fn_calculate_cart_content($ship_cart, $auth, 'A', true, 'F', true);
 
