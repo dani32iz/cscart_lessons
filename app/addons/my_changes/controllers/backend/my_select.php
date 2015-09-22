@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
 
         if (!empty($_REQUEST['order_id']) && !empty($_REQUEST['ops'])) {
 
+            // Цикл
             foreach($_REQUEST['ops'] as $item_id => $ops) {
 
                 $data = array (
